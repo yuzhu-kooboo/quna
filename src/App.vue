@@ -1,0 +1,14 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App1'
+}
+</script>
+
+<style>
+</style>
