@@ -26,7 +26,10 @@ import Tag from './Tag'
 
 export default {
   name: 'ScenicSpot',
-  props: ['list'],
+  props: {
+    list: Object,
+    required: true
+  },
   components: {
     Price,
     Tag
