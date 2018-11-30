@@ -1,6 +1,6 @@
 <template>
   <div class="home-header-swiper">
-    <swiper :options="swiperOption">
+    <swiper :options="swiperOption" v-if="swiperData">
     <swiper-slide v-for="list of swiperList" :key="list.id"><img class="swiper-img" :src="list.imgUrl" alt=""></swiper-slide>
     <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
@@ -22,6 +22,11 @@ export default {
         autoplay: 1500,
         disableOnInteraction: false
       }
+    }
+  },
+  computed: {
+    swiperData () {//判断轮播图的数据是否传递过来，使轮播图展示时是第一个页面
+      return this.swiperList.length
     }
   }
 }
