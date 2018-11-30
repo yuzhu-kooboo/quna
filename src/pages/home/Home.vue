@@ -4,6 +4,7 @@
   <home-swiper :swiperList="swiperList"></home-swiper>
   <home-recommend :lists="lists"></home-recommend>
   <home-guess :scenicList="scenicList"></home-guess>
+  <where-week :whereWeek="whereWeek"></where-week>
 </div>
 
 </template>
@@ -12,6 +13,7 @@ import HomeHeader from './components/HomeHeader'
 import HomeSwiper from './components/HomeSwiper'
 import HomeRecommend from './components/HomeRecommend'
 import HomeGuess from './components/HomeGuess'
+import WhereWeek from './components/WhereWeek'
 import axios from 'axios'
 
 export default {
@@ -21,14 +23,16 @@ export default {
       city: '武汉',
       lists: [],
       scenicList: [],
-      swiperList: []
+      swiperList: [],
+      whereWeek: []
     }
   },
   components: {
     HomeHeader,
     HomeSwiper,
     HomeRecommend,
-    HomeGuess
+    HomeGuess,
+    WhereWeek
   },
   methods: {
     getHomeData () {
@@ -41,6 +45,7 @@ export default {
         this.lists = data.lists
         this.scenicList = data.scenicList
         this.swiperList = data.swiperList
+        this.whereWeek = data.whereWeek
       }
     }
   },

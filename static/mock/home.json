@@ -147,6 +147,34 @@
         "tip": "",
         "tagName": "tomorrow"
       }
+    ],
+    "whereWeek": [
+      {
+        "id": "001",
+        "urlImg": "http://img1.qunarzz.com/sight/source/1509/69/3f535648c26681.jpg_r_640x214_146b5b8e.jpg",
+        "textOne": "秋意浓，来厦门",
+        "textTwo": "这里的秋，多了一点柔情"
+      }, {
+        "id": "002",
+        "urlImg": "http://img1.qunarzz.com/sight/source/1711/15/1cdd5ee885686b.jpg_r_640x214_46768064.jpg",
+        "textOne": "厦门必游TOP10",
+        "textTwo": "来厦门感受一把小资情调"
+      }, {
+        "id": "003",
+        "urlImg": "http://img1.qunarzz.com/sight/source/1511/8f/bf3a40e4afcf29.jpg_r_640x214_90225212.jpg",
+        "textOne": "泉心泉意",
+        "textTwo": "这个秋冬不干燥，养生休闲一举两得"
+      }, {
+        "id": "004",
+        "urlImg": "http://img1.qunarzz.com/sight/source/1505/b3/671f666cc7845a.jpg_r_640x214_f977f30c.jpg",
+        "textOne": "帆船游艇出海",
+        "textTwo": "乘风破浪，直挂云帆济沧海"
+      }, {
+        "id": "005",
+        "urlImg": "http://img1.qunarzz.com/sight/source/1505/81/b178edc1197700.jpg_r_640x214_9acee897.jpg",
+        "textOne": "厦门娱乐万岁",
+        "textTwo": "不登鼓浪屿的新玩法"
+      }
     ]
   }
 }
