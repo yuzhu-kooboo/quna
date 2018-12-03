@@ -175,6 +175,69 @@
         "textOne": "厦门娱乐万岁",
         "textTwo": "不登鼓浪屿的新玩法"
       }
+    ],
+    "WeekHot": [
+      {
+        "id": "00001",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1506/f6/f6b727f036fe5d6d.water.jpg_250x250_d22ecf6b.jpg",
+        "space": "鼓浪屿",
+        "price": 15,
+        "top": "topone"
+      }, {
+        "id": "00002",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1508/97/ea51af995c4d4de85c53855302b2f5af.water.jpg_250x250_a567aa64.jpg",
+        "space": "鼓浪屿往返轮渡",
+        "price": 19,
+        "top": "toptwo"
+      }, {
+        "id": "00003",
+        "urlImg": "http://img1.qunarzz.com/sight/p45/201211/02/e9a41b41caab0b7093835fbb.jpg_250x250_b0390bf6.jpg",
+        "space": "皓月园",
+        "price": 19,
+        "top": "topthree"
+      }, {
+        "id": "00004",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1411/b5/16eea21012babfc8c8033de8e58b4389.water.jpg_250x250_c9efeee0.jpg",
+        "space": "胡里山炮台",
+        "price": 20.6,
+        "top": ""
+      }, {
+        "id": "00005",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1711/4f/4fba5e793fe8ef5ca3.img.jpg_250x250_856d43db.jpg",
+        "space": "厦门园林植物园",
+        "price": 15,
+        "top": ""
+      }, {
+        "id": "00006",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1805/7d/7dca9c37a87479eba3.img.jpg_250x250_b61fdb6d.jpg",
+        "space": "世茂云上厦门观光厅",
+        "price": 50,
+        "top": ""
+      }, {
+        "id": "00007",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1502/6b/6b079eb07e4b38c9.water.jpg_250x250_f3e25d1e.jpg",
+        "space": "灵玲国际马戏城",
+        "price": 60,
+        "top": ""
+      }, {
+        "id": "00008",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/201403/10/8f43791a186d4a483ab421ad657a79e0.jpg_250x250_c5cb053f.jpg",
+        "space": "国际刻字艺术馆",
+        "price": 19,
+        "top": ""
+      }, {
+        "id": "00009",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1708/5b/5b037e5c218a1d2aa3.img.jpg_250x250_2b429f87.jpg",
+        "space": "厦门海底世界",
+        "price": 50,
+        "top": ""
+      }, {
+        "id": "000010",
+        "urlImg": "http://img1.qunarzz.com/sight/p0/1811/4f/4f30c7755f241fd6a3.img.jpg_250x250_2789d160.jpg",
+        "space": "厦门园博苑",
+        "price": 48,
+        "top": ""
+      }
     ]
   }
 }

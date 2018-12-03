@@ -4,6 +4,7 @@
   <home-swiper :swiperList="swiperList"></home-swiper>
   <home-recommend :lists="lists"></home-recommend>
   <home-guess :scenicList="scenicList"></home-guess>
+  <week-hot :WeekHotLists="WeekHot"></week-hot>
   <where-week :whereWeek="whereWeek"></where-week>
 </div>
 
@@ -14,6 +15,7 @@ import HomeSwiper from './components/HomeSwiper'
 import HomeRecommend from './components/HomeRecommend'
 import HomeGuess from './components/HomeGuess'
 import WhereWeek from './components/WhereWeek'
+import WeekHot from './components/WeekHot'
 import axios from 'axios'
 
 export default {
@@ -24,7 +26,8 @@ export default {
       lists: [],
       scenicList: [],
       swiperList: [],
-      whereWeek: []
+      whereWeek: [],
+      WeekHot: []
     }
   },
   components: {
@@ -32,7 +35,8 @@ export default {
     HomeSwiper,
     HomeRecommend,
     HomeGuess,
-    WhereWeek
+    WhereWeek,
+    WeekHot
   },
   methods: {
     getHomeData () {
@@ -46,6 +50,7 @@ export default {
         this.scenicList = data.scenicList
         this.swiperList = data.swiperList
         this.whereWeek = data.whereWeek
+        this.WeekHot = data.WeekHot
       }
     }
   },
