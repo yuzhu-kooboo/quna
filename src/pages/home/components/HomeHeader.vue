@@ -4,7 +4,9 @@
       <span class="iconfont">&#xe605;</span>
     </div>
     <div class="header-input"><span class="iconfont">&#xe61e;</span>请输入城市/景点/游玩主题</div>
-    <div class="header-city">{{city}}<span class="iconfont">&#xe6aa;</span></div>
+    <router-link to="/city">
+      <div class="header-city">{{city}}<span class="iconfont">&#xe6aa;</span></div>
+    </router-link>
   </div>
 </template>
 
@@ -37,10 +39,11 @@ export default {
       padding-left: .2rem
       margin-top: .12rem
       margin-left: .2rem
-      height: .62rem
-      line-height: .62rem
+      height: $homeHeaderInputH
+      line-height: $homeHeaderInputH
       color: #ccc
     .header-city
+      color #fff
       width: 1.24rem
       float: right
       text-align: center
