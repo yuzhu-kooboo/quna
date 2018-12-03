@@ -1,7 +1,7 @@
 <template>
   <div class="spot">
     <div class="scenic">
-      <tag :name="list.tagName"><img slot="today"  class="scenic-img" :src="list.imgUrl" alt=""></tag>
+      <tag :time="list.tagName"><img class="scenic-img" :src="list.imgUrl" alt=""></tag>
       <div class="scenic-cont">
         <div class="scenic-name">{{list.scenicSpotName}}</div>
         <div class="comment">

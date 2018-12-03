@@ -1,18 +1,16 @@
 <template>
   <div class="taglogo">
-    <slot name="today"></slot>
-    <slot name="anytime"></slot>
-    <slot name="tomorrow"></slot>
-    <div v-if="name=='today'" class="tag today">今日预定</div>
-    <div v-else-if="name=='anytime'" class="tag anytime">随买随用</div>
-    <div v-else-if="name=='tomorrow'" class="tag tomorrow">可定明日</div>
+    <slot></slot>
+    <div v-if="time=='today'" class="tag today">今日预定</div>
+    <div v-else-if="time=='anytime'" class="tag anytime">随买随用</div>
+    <div v-else-if="time=='tomorrow'" class="tag tomorrow">可定明日</div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Tag',
-  props: ['name']
+  props: ['time']
 }
 </script>
 
