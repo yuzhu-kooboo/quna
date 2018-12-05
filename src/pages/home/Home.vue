@@ -22,7 +22,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      city: '武汉',
+      city: '',
       lists: [],
       scenicList: [],
       swiperList: [],

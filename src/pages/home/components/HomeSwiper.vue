@@ -25,7 +25,7 @@ export default {
     }
   },
   computed: {
-    swiperData () {//判断轮播图的数据是否传递过来，使轮播图展示时是第一个页面
+    swiperData () {
       return this.swiperList.length
     }
   }

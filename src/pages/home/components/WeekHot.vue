@@ -15,7 +15,6 @@
     <div class="hotlist">
       <hot class="hotscenicspot" v-for="list of WeekHotLists" :key="list.id" :list="list"></hot>
     </div>
-    
   </div>
 </template>
 <script>
