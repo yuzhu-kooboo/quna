@@ -1,13 +1,13 @@
 <template>
-  <div class="initail">
-    <ul>
-      <li v-for="(item,index) of letters" :key="index" :ref="item"
-       @click="handleInitail"
-       @touchstart="handleTouchStart"
-       @touchmove="handleTouchMove"
-       @touchend="handleTouchEnd">{{item}}</li>
-    </ul>
-  </div>
+    <div class="initail">
+      <ul>
+        <li v-for="(item,index) of letters" :key="index" :ref="item"
+        @click="handleInitail"
+        @touchstart="handleTouchStart"
+        @touchmove="handleTouchMove"
+        @touchend="handleTouchEnd">{{item}}</li>
+      </ul>
+    </div>
 </template>
 
 <script>
